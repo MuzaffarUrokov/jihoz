@@ -1,0 +1,1890 @@
+
+@font-face{
+  font-family: FiraSans;
+  src: url('../Fonts/Fira Sans/FiraSans-Regular.ttf');
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#nav{
+    background-color: #fdb92e;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+
+#nav  nav a.navbar-brand img{
+    margin-left:20px;
+    width: 87px;
+    height: 27px;    
+}
+
+#nav .navbar-nav .nav-item{
+    margin:0 10px;
+}
+
+#nav .navbar-nav .nav-link{  
+    font-family: FiraSans;
+    font-size: 18px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+}
+
+#nav .navbar-nav .nav-link div.text{  
+    font-family: FiraSans;
+    font-size: 18px;
+    text-align: right;    
+    position: relative;
+    width:215px;
+ }
+
+#nav .navbar-nav .nav-link ins{
+    width:230px; 
+    position: absolute;
+    font-family: FiraSans;
+    font-size: 18px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#slider{
+    	position: relative;
+}
+
+#slider .owl-carousel .item .img1{ 
+     width: 100%;
+     height:700px;
+     object-fit: cover; 
+}
+
+#slider .text{
+  	position: absolute;
+  	top:15%;
+  	left:18%;
+  	width: 600px;
+  	height: 300px;
+}
+
+#slider .text p:nth-child(1){
+    width: 600px;
+    height: 75px;
+    font-family: FiraSans;
+    font-size: 50px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.24px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#slider .text p:nth-child(2){
+    width: 600px;
+    height: 350px;
+    font-family: FiraSans;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#slider .text div{   
+    width: 160px;
+    height: 53px;
+    background-color: #fdb92e;
+    padding: 2px;
+}
+
+#slider .text .blok{
+    font-family: FiraSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+#slider .item .facebook{
+    position: absolute;
+    bottom: 3%;
+    right:7%;
+    width: 20px;
+    height: 23px;
+}
+
+#slider .item .istagram{
+    position: absolute;
+    bottom: 3%;
+    right:12%;
+    width: 20px;
+    height: 20px;
+}
+
+#slider .item .telegram{
+     position: absolute;
+     bottom: 3%;
+     right:17%;
+     width: 20px;
+     height: 20px;
+}
+
+#slider .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  z-index: 1;
+}
+
+#product{
+     background-color: #dedede!important;
+     padding:60px;
+
+}
+
+#product .row .col-sm-9{
+    font-family: FiraSans;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5c5c5c;
+}
+
+#product .accordion .panel {
+    display: none;
+}
+
+#product .accordion.opened .accordion-toggle-btn img {
+    transform: rotate(90deg);
+}
+
+#product .accordion.opened .panel {
+    display: block;
+}
+
+#product .panel{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+
+}
+
+#product .accordion img{
+    width:20px;
+    height:20px;
+} 
+
+#product .accordion span{
+    padding-left: 10px;
+    width: 207px;
+    height: 19px;
+    font-family: FiraSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-top:10px;
+
+}
+
+#product .accordion .panel a{
+    width: 160px;
+    height: 30px;
+    font-family: FiraSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #000000;
+}
+
+#card{
+     background-color: #dedede!important;
+
+}
+#card .row{
+  padding-top:20px;
+  padding-bottom:40px;
+}
+#card .card img{
+    height: 350px;
+    mix-blend-mode: multiply;
+}
+
+#card .accordion1 {
+    background-color: #fdb92e;
+    margin-top: -2px;
+    z-index: 1;
+}
+
+#card .accordion1 span.text{
+    width: 350px;
+    height: 45px;
+    font-family: FiraSans;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    background-color: #f4f4f4;
+    padding: 10px 76px 8px 25px;
+}
+
+#card .accordion1 .panel {
+    display: none;
+}
+
+#card .accordion1.opened1 .accordion1-toggle-btn img {
+    transform: rotate(90deg);
+}
+
+#card .accordion1.opened1 .panel {
+    display: block;
+}
+
+#card .panel{
+    padding: 12px 18px 5px 18px;
+    display: none;
+    overflow: hidden;  
+}
+
+#card .accordion1 img{
+    width: 39px;
+    height:32px;
+    padding-left: 10px;
+    padding-right: 5px;
+} 
+ 
+#card .accordion1 .panel a{
+    width: 160px;
+    height: 43px;
+    font-family: FiraSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #000000;
+}
+
+#card .accordion1 .card-text{
+    background-color: #ffffff;
+    width: 350px;
+    height: 180px;
+    padding:10px;
+
+}
+#card .accordion1 .card-text p{
+    margin-top:12px; 
+    width: 350px;
+    height: 16px;
+    font-family: FiraSans;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+    padding-left: 10px;
+    padding-bottom: 12px;
+}
+#card .accordion1 .card-text .polna{
+    width: 105px;
+    height: 28px;
+    font-family: FiraSans;
+    font-size: 30px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#productmoney{
+   margin-top:40px ; 
+   background-color:#ffffff;
+   margin-bottom: 40px;
+}
+
+#productmoney h3{
+    font-family: FiraSans;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5c5c5c;
+}
+#productmoney .col-md-4{
+  width: 100%;
+  position: relative;
+}
+
+#productmoney .img{
+  position: absolute;
+  width: 30%;
+  float: left;
+}
+#productmoney .text{
+  width: 60%;
+  float: right;
+}
+#productmoney .col-md-4:nth-child(1) span img{
+  transform: rotate(-45deg);
+}
+#productmoney .col-md-4:nth-child(1) span:nth-child(2) img{
+  margin-left:-40px;
+}
+#prductmoney h5{
+    font-family: FiraSans;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#productmoney p{
+    font-family: FiraSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#slidetext{
+    background-color: #fdb92e;
+}
+
+#slidetext .row .col-sm-1 .owl-prev,#slidetext .row .col-sm-1 .owl-next{
+margin-top: 180px;
+background-color: #fdb92e;
+}
+ 
+
+#slidetext .slider .item{
+  margin:50px 0px 0 0px;
+}
+#slidetext .nav-item .carad{
+  border: none;
+}
+#slidetext .slider .item .col-md-5{
+  background-color: #fdb92e;
+  border: none;
+}
+
+#aloqa{
+  padding:60px;
+}
+
+#aloqa .row .col-sm-9{
+   width: 306px;
+   height: 37px;
+   font-family: FiraSans;
+   font-size: 40px;
+   font-weight: 500;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: left;
+   color: #5c5c5c;
+}
+
+#aloqa .accordion .panel {
+    display: none;
+}
+
+#aloqa .accordion.opened .accordion-toggle-btn img {
+    transform: rotate(90deg);
+}
+
+#aloqa .accordion.opened .panel {
+    display: block;
+}
+
+#aloqa .panel{
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;  
+}
+
+#aloqa .accordion img{
+    width: 15px;
+    height:15px;
+}
+
+#aloqa .accordion span{
+   padding-left: 10px;
+   width: 207px;
+   height: 19px;
+   font-family: FiraSans;
+   font-size: 20px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: left;
+   color: #000000;
+}
+
+#aloqa .accordion .panel a{
+   width: 160px;
+   height: 43px;
+   font-family: FiraSans;
+   font-size: 16px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.69;
+   letter-spacing: 0.32px;
+   text-align: left;
+   color: #000000;
+}
+
+#products #card{
+  background-color: #ffffff!important;
+}
+
+#products #card .card{
+  position: relative;
+}
+
+#products #card .card .text{
+  position: absolute;
+  top:40%;
+  left:30%;
+  display: none;
+}
+
+#products #card .card .text p:nth-child(1){
+  font-family: FiraSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+#products #card .card .text p:nth-child(2){
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #000000;
+}
+ 
+#products #card .card:hover{
+  opacity: 0.8;
+  background-color: #fdb92e;
+}
+
+#products #card .card:hover .text{
+  display: block;
+  position: absolute;
+  top:40%;
+  left:30%;
+}
+
+footer{
+  background-color: #f4f4f4;
+  padding: 50px 0 100px 40px;
+
+}
+
+footer .row .col-sm-4 p:nth-child(1){
+  font-family: FiraSans;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+}
+
+footer .row .col-sm-4 p:nth-child(2){
+  font-family: FiraSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+footer .row .col-sm-1 {
+  font-family: FiraSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-left:-100px;
+  margin-right: 40px;
+}
+
+footer .row .col-sm-5 p:nth-child(1){
+  font-family: FiraSans;
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+footer .row .col-sm-5 p:nth-child(2){
+  font-family: FiraSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+footer img{
+  padding:0 2px;
+}
+
+footer .row:nth-child(2) .col-sm-4{
+  font-family: FiraSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+footer .row:nth-child(2) .col-sm-6{
+  font-family: FiraSans;
+  font-size: 18px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+
+@media only screen and (min-width:1500px){
+
+
+
+#nav .navbar-nav .nav-item{
+    margin: 0 25px;
+}
+
+#nav .navbar-nav .nav-link{  
+    font-size: 22px!important;
+}
+
+#nav .navbar-nav .nav-link div{  
+    font-size: 18px!important;
+    padding-left:23px;
+ }
+
+#nav .navbar-nav .nav-link ins{  
+    font-size: 18px!important;
+}
+
+#slider .owl-carousel .item .img1{ 
+     width: 100%;
+     height: 900px; 
+}
+
+#slider .text{
+    top:15%;
+    left:18%;
+    width: 600px;
+    height: 300px;
+}
+
+#slider .text p:nth-child(1){
+    width:600px;
+    height:75px;
+    font-size:60px;
+}
+
+#slider .text p:nth-child(2){
+    width:600px;
+    height:350px;
+    font-size:30px;
+}
+
+#slider .text div{   
+    width:160px;
+    height:53px;
+    background-color: #fdb92e;
+    padding:2px;
+}
+
+#slider .text .blok{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#slider .item .facebook{
+    bottom: 3%;
+    right:7%;
+    width: 20px;
+    height: 23px;
+}
+
+#slider .item .istagram{
+    bottom: 3%;
+    right:12%;
+    width: 20px;
+    height: 20px;
+}
+
+#slider .item .telegram{
+     bottom: 3%;
+     right:17%;
+     width: 20px;
+     height: 20px;
+}
+
+#slider .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  z-index: 1;
+}
+
+#product{
+    padding:60px;
+}
+
+#product .row .col-sm-9{
+    font-size: 40px;
+}
+
+#product .panel{
+    padding: 0 18px;
+}
+
+#product .accordion img{
+    width: 30px;
+    height:20px;
+} 
+
+#product .accordion span{
+    padding-left: 10px;
+    margin-top:10px;
+    font-size: 20px;
+}
+
+#product .accordion .panel a{
+    font-size: 16px;
+ }
+
+#card .row{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#card .card img{
+    height: 350px;
+    mix-blend-mode: multiply;
+}
+
+#card .accordion1 {
+    margin-top: -2px;
+    z-index: 1;
+}
+
+#card .accordion1 span.text{
+    font-size: 24px;
+    padding: 14px 77.5px 8px 19px;
+}
+
+#card .panel{
+    padding: 12px 18px 5px 18px;
+}
+
+#card .accordion1 img{
+    width: 39px;
+    height:32px;
+    padding-left: 10px;
+    padding-right: 5px;
+} 
+ 
+#card .accordion1 .panel a{
+    width: 160px;
+    height: 43px;
+    font-size: 16px;
+}
+
+#card .accordion1 .card-text{
+    padding-top:10px;
+}
+
+#card .accordion1 .card-text p{
+    margin-top:12px; 
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+}
+
+#card .accordion1 .card-text .polna{
+    font-size: 30px;
+}
+
+#productmoney{
+   margin-top:40px ; 
+   margin-bottom: 40px;
+}
+
+#productmoney h3{
+    font-size: 40px;
+}
+#productmoney .col-md-4{
+  width: 100%;
+  position: relative;
+}
+
+#productmoney .img{
+  position: absolute;
+  width: 30%;
+  float: left;
+}
+
+#productmoney .text{
+  width: 60%;
+  float: right;
+}
+
+#productmoney .col-md-4:nth-child(1) span img{
+  transform: rotate(-45deg);
+}
+#productmoney .col-md-4:nth-child(1) span:nth-child(2) img{
+  margin-left:-40px;
+}
+#prductmoney h5{
+    font-size: 30px;
+}
+
+#productmoney p{
+    font-size: 20px;
+}
+
+#slidetext .row .col-sm-1 .owl-prev,#slidetext .row .col-sm-1 .owl-next{
+    margin-top: 180px;
+}
+ 
+
+#slidetext .slider .item{
+  border:none;
+  margin:50px 0px 0 0px;
+}
+
+
+#aloqa{
+  padding:60px;
+}
+
+#aloqa .row .col-sm-9{
+   font-size: 40px;
+}
+
+#aloqa .panel{
+   padding: 0 18px;
+}
+
+#aloqa .accordion img{
+    width:30px;
+    height:25px;
+}
+
+#aloqa .accordion span{
+   padding-left: 10px;
+   font-size: 18px;
+   margin-top: 10px;
+}
+
+#aloqa .accordion .panel a{
+   font-size: 16px;
+}
+
+#products #card .card{
+  position: relative;
+}
+
+#products #card .card .text{
+  position: absolute;
+  top:40%;
+  left:30%;
+}
+
+#products #card .card .text p:nth-child(1){
+  font-size: 20px;
+}
+
+#products #card .card .text p:nth-child(2){
+  font-size: 16px;
+}
+ 
+#products #card .card:hover .text{
+  top:40%;
+  left:30%;
+}
+
+footer{
+  background-color: #f4f4f4;
+  padding: 50px 0 40px 0;
+
+}
+
+footer .row .col-sm-4 p:nth-child(1){
+ font-size: 36px;
+}
+
+footer .row .col-sm-4 p:nth-child(2){
+  font-size: 18px;
+}
+
+footer .row .col-sm-1 {
+  font-size: 20px;
+}
+
+footer .row .col-sm-5 p:nth-child(1){
+  font-size: 23px;
+}
+
+footer .row .col-sm-5 p:nth-child(2){
+  font-size: 18px;
+}
+
+footer .row:nth-child(2) .col-sm-4{
+  font-size: 18px;
+}
+
+footer .row:nth-child(2) .col-sm-6{
+  font-size: 18px;
+}
+ }
+
+ @media only screen and (max-width:900px){
+
+#nav  nav a.navbar-brand img{
+    margin-left:20px;
+    width: 100px;
+}
+
+#nav .navbar-nav .nav-item{
+    margin: 0 50px;
+}
+
+#nav .navbar-nav .nav-link{  
+    font-size: 22px!important;
+    text-align:left;
+}
+
+#nav .navbar-nav .nav-link div{  
+    font-size: 18px!important;
+    text-align: right;
+    padding-left: 20px;
+ }
+
+#nav .navbar-nav .nav-link ins{  
+    font-size: 18px!important;
+    text-align: left;
+}
+
+#slider{
+      position: relative;
+}
+
+#slider .owl-carousel .item .img1{ 
+     width: 100%;
+     height: 800px; 
+}
+
+#slider .text{
+    position: absolute;
+    top:15%;
+    left:18%;
+    width: 600px;
+    height: 200px;
+}
+
+#slider .text p:nth-child(1){
+    width: 600px;
+    height: 75px;
+    font-size: 45px;
+}
+
+#slider .text p:nth-child(2){
+    width: 600px;
+    height: 350px;
+    font-size: 25px;
+}
+
+#slider .text div{   
+    width: 160px;
+    height: 53px;
+    padding: 2px;
+}
+
+#slider .text .blok{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#slider .item .facebook{
+    bottom: 3%;
+    right:7%;
+    width: 20px;
+    height: 23px;
+}
+
+#slider .item .istagram{
+    bottom: 3%;
+    right:12%;
+    width: 20px;
+    height: 20px;
+}
+
+#slider .item .telegram{
+     bottom: 3%;
+     right:17%;
+     width: 20px;
+     height: 20px;
+}
+
+#slider .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  z-index: 1;
+}
+
+#product{
+     padding:60px;
+}
+
+#product .row .col-sm-9{
+    font-size:30px;
+}
+
+#product .panel{
+    padding: 0 18px;
+}
+
+#product .accordion img{
+    width:15px;
+    height:15px;
+} 
+
+#product .accordion span{
+    padding-left:10px;
+    font-size:10px;
+}
+
+#product .accordion .panel a{
+    font-size:10px;
+}
+
+#card{
+     background-color: #dedede!important;
+}
+
+#card .row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#card .card img{
+    height: 280px;
+    mix-blend-mode: multiply;
+}
+
+#card .accordion1 {
+    margin-top:-2px;
+    z-index: 1;
+}
+
+#card .accordion1 span.text{
+    width: 300px;
+    height: 45px;
+    font-size:15px;
+    padding: 12px 23px 6px 17px;
+}
+
+#card .panel{
+    padding: 12px 18px 5px 18px;
+}
+
+#card .accordion1 img{
+    width:32px;
+    height:27px;
+    padding-left: 10px;
+    padding-right:7px;
+} 
+ 
+#card .accordion1 .panel a{
+    width: 160px;
+    height: 20px;
+    font-size:13px;
+}
+
+#card .accordion1 .card-text{
+    width: 208px;
+    height: 150px;
+    padding-top:10px;
+
+}
+
+#card .accordion1 .card-text p{
+    margin-top:12px; 
+    width: 200px;
+    height: 16px;
+    font-size:12px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+}
+#card .accordion1 .card-text .polna{
+    width: 105px;
+    height: 28px;
+    font-size:20px;
+}
+
+#productmoney{
+   margin-top:40px ; 
+   margin-bottom: 40px;
+}
+
+#productmoney h3{
+    font-size: 40px;
+}
+
+#productmoney .col-md-4{
+  width: 100%;
+  position: relative;
+}
+
+#productmoney .img{
+  position: absolute;
+  width: 30%;
+  float: left;
+}
+#productmoney .text{
+  width: 60%;
+  float: right;
+}
+#productmoney .col-md-4:nth-child(1) span img{
+  transform: rotate(-45deg);
+}
+#productmoney .col-md-4:nth-child(1) span:nth-child(2) img{
+  margin-left:-30px;
+}
+#productmoney .col-md-4 img{
+  width: 45px;
+  height:45px;
+}
+#prductmoney h5{
+    font-size:25px;
+ }
+
+#productmoney p{
+    font-size:15px;
+}
+
+#slidetext .row .col-sm-1 .owl-prev,#slidetext .row .col-sm-1 .owl-next{
+margin-top:160px;
+}
+ 
+#slidetext .slider .item{
+  border:none;
+  margin:50px 0px 0 0px;
+}
+
+#slidetext .row .col-sm-1 img{
+  width:25px;
+  height:20px;
+}
+
+#aloqa{
+  padding:60px;
+}
+
+#aloqa .row .col-sm-9{
+  font-size:25px;
+}
+
+#aloqa .panel{
+   padding: 0 18px;
+}
+
+#aloqa .accordion img{
+    width: 13px;
+    height:13px;
+}
+
+#aloqa .accordion span{
+   padding-left:5px;
+   font-size:10px;
+}
+
+#aloqa .accordion .panel a{
+   font-size: 12px;
+}
+
+#products #card .card{
+  position: relative;
+}
+
+#products #card .card .text{
+  position: absolute;
+  top:40%;
+  left:30%;
+}
+
+#products #card .card .text p:nth-child(1){
+  font-size: 20px;
+}
+
+#products #card .card .text p:nth-child(2){
+  font-size: 16px;
+}
+ 
+#products #card .card:hover .text{
+  top:40%;
+  left:30%;
+}
+
+footer{
+  padding: 50px 0 100px 40px;
+
+}
+
+footer .row .col-sm-4 p:nth-child(1){
+  font-size:20px;
+}
+
+footer .row .col-sm-4 p:nth-child(2){
+  font-size: 15px;
+}
+
+footer .row .col-sm-1 {
+  font-size:8px;
+}
+
+footer .row .col-sm-5 p:nth-child(1){
+  font-size: 18px;
+}
+
+footer .row .col-sm-5 p:nth-child(2){
+  font-size: 14px;
+}
+footer img{
+  padding:0 2px;
+}
+
+footer .row:nth-child(2) .col-sm-4{
+  font-size:14px;
+}
+
+footer .row:nth-child(2) .col-sm-6{
+  font-size:14px;
+}
+
+}
+
+@media only screen and (max-width:400px){
+
+#nav  nav a.navbar-brand img{
+    margin-left:0px;
+    width: 100px;
+}
+
+#nav .navbar-nav .nav-item{
+    margin: 0 30px;
+}
+
+#nav .navbar-nav .nav-link{  
+    font-size: 18px!important;
+    text-align:left;
+}
+
+#nav .navbar-nav .nav-link strong{  
+    font-size: 18px!important;
+    text-align: right;
+    padding-left: 20px;
+ }
+
+#nav .navbar-nav .nav-link ins{  
+    font-size: 18px!important;
+    text-align: left;
+}
+
+#slider .owl-carousel .item .img1{ 
+     width: 100%;
+     height: 500px; 
+}
+
+#slider .text{
+    position: absolute;
+    top:15%;
+    left:18%;
+    width:300px;
+    height:200px;
+}
+
+#slider .text p:nth-child(1){
+    width: 300px;
+    height:35px;
+    font-size:30px;
+}
+
+#slider .text p:nth-child(2){
+    width: 300px;
+    height:220px;
+    font-size:15px;
+}
+
+#slider .text div{   
+    width: 120px;
+    height: 40px;
+    padding: 2px;
+}
+
+#slider .text .blok{
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+#slider .item .facebook{
+    bottom: 3%;
+    right:7%;
+    width: 20px;
+    height: 23px;
+}
+
+#slider .item .istagram{
+    bottom: 3%;
+    right:15%;
+    width: 20px;
+    height: 20px;
+}
+
+#slider .item .telegram{
+     bottom: 3%;
+     right:23%;
+     width: 20px;
+     height: 20px;
+}
+
+#slider .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  z-index: 1;
+}
+
+#product{
+     padding:30px;
+}
+
+#product .row .col-sm-9{
+    font-size: 30px;
+}
+
+#product .panel{
+    padding: 0 18px;
+}
+
+#product .accordion img{
+    width:13px;
+    height:13px;
+} 
+
+#product .accordion span{
+    padding-left:10px;
+    padding-top: 10px;
+    font-size:20px;
+}
+
+#product .accordion .panel a{
+    font-size:15px;
+}
+
+#card .row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#card .card img{
+    height: 300px;
+    mix-blend-mode: multiply;
+}
+
+#card .accordion1 {
+    margin-top: -2px;
+    z-index: 1;
+}
+
+#card .accordion1 span.text{
+    width: 300px;
+    height: 45px;
+    font-size:20px;
+    padding: 12px 125.5px 6px 30px;
+}
+
+#card .panel{
+    padding: 12px 18px 5px 18px;
+}
+
+#card .accordion1 img{
+    width:34px;
+    height:30px;
+    padding-left: 10px;
+    padding-right:7px;
+} 
+ 
+#card .accordion1 .panel a{
+    width: 160px;
+    height: 20px;
+    font-size: 16px;
+}
+
+#card .accordion1 .card-text{
+    width: 367.5px;
+    height: 150px;
+    padding-top:10px;
+
+}
+
+#card .accordion1 .card-text p{
+    margin-top:15px; 
+    width: 340px;
+    height: 16px;
+    font-size:15px;
+    padding-left:30px;
+    padding-bottom:8px;
+}
+#card .accordion1 .card-text .polna{
+    width: 200px;
+    height: 28px;
+    font-size:25px;
+}
+
+#productmoney{
+   margin-top:20px ; 
+   margin-bottom:20px;
+}
+
+#productmoney h3{
+    font-size: 30px;
+    padding-left:50px;
+}
+
+#productmoney .col-md-4{
+  width: 100%;
+  position: relative;
+}
+
+#productmoney .img{
+  position: absolute;
+  width: 20%;
+  float: left;
+}
+#productmoney .text{
+  width: 70%;
+  float: right;
+}
+#productmoney .col-md-4 img{
+  width: 50px;
+  height:50px;
+}
+#prductmoney h5{
+    font-size:25px;
+ }
+
+#productmoney p{
+    font-size:15px;
+}
+
+#slidetext .row .col-sm-1 .owl-prev,#slidetext .row .col-sm-1 .owl-next{
+margin-top:40px;
+display: none;
+}
+ 
+#slidetext .slider .item{
+  border:none;
+  margin:30px 0px 0 0px;
+}
+
+#slidetext .row .col-sm-1 img{
+  width:25px;
+  height:20px;
+}
+
+#aloqa{
+  padding:40px;
+}
+
+#aloqa .row .col-sm-9{
+  font-size:30px;
+}
+
+
+#aloqa .accordion img{
+    width: 13px;
+    height:13px;
+}
+
+#aloqa .accordion span{
+   padding-left:5px;
+   font-size:18px;
+   padding-top: 10px;
+}
+
+#aloqa .accordion .panel a{
+   font-size: 16px;
+}
+
+#products #card .card{
+  position: relative;
+}
+
+#products #card .card .text{
+  position: absolute;
+  top:40%;
+  left:30%;
+}
+
+#products #card .card .text p:nth-child(1){
+  font-size: 20px;
+}
+
+#products #card .card .text p:nth-child(2){
+  font-size: 16px;
+}
+ 
+#products #card .card:hover .text{
+  top:40%;
+  left:30%;
+}
+
+footer{
+  padding: 50px 0 100px 40px;
+
+}
+
+footer .row .col-sm-4 p:nth-child(1){
+  font-size:25px;
+  padding-bottom: 20px;
+}
+
+footer .row .col-sm-4 p:nth-child(2){
+   padding-bottom: 20px; 
+  font-size: 20px;
+}
+
+footer .row .col-sm-1 {
+  margin-left:30px;
+  font-size:10px;
+   padding-bottom: 20px;
+}
+
+footer .row .col-sm-5 p:nth-child(1){
+  font-size: 20px;
+   padding-bottom: 20px;
+}
+
+footer .row .col-sm-5 p:nth-child(2){
+  font-size: 16px;
+   padding-bottom: 20px;
+}
+footer img{
+  padding:0 2px;
+   ;
+}
+
+footer .row:nth-child(2) .col-sm-4{
+  font-size:16px;
+   padding-bottom: 20px;
+}
+
+footer .row:nth-child(2) .col-sm-6{
+  font-size:16px;
+   padding-bottom: 20px;
+}
+
+
+}
+
+@media only screen and (max-width:360px){
+
+#slider .owl-carousel .item .img1{ 
+     width: 100%;
+     height: 500px; 
+}
+
+#slider .text{
+    position: absolute;
+    top:15%;
+    left:18%;
+    width:300px;
+    height: 200px;
+}
+
+#slider .text p:nth-child(1){
+    width: 300px;
+    height:35px;
+    font-size:30px;
+}
+
+#slider .text p:nth-child(2){
+    width: 300px;
+    height:220px;
+    font-size:15px;
+}
+
+#slider .text div{   
+    width: 120px;
+    height: 40px;
+    padding: 2px;
+}
+
+#slider .text .blok{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#slider .item .facebook{
+    bottom: 3%;
+    right:7%;
+    width: 20px;
+    height: 23px;
+}
+
+#slider .item .istagram{
+    bottom: 3%;
+    right:15%;
+    width: 20px;
+    height: 20px;
+}
+
+#slider .item .telegram{
+     bottom: 3%;
+     right:23%;
+     width: 20px;
+     height: 20px;
+}
+
+#slider .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  z-index: 1;
+}
+
+#product{
+     padding:20px;
+}
+
+#product .row .col-sm-9{
+    font-size: 35px;
+}
+
+#product .panel{
+    padding: 0 18px;
+}
+
+#product .accordion img{
+    width:13px;
+    height:13px;
+} 
+
+#product .accordion span{
+    padding-left:10px;
+    padding-top: 15px;
+    font-size:20px;
+}
+
+#product .accordion .panel a{
+    font-size:15px;
+}
+
+#card .row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#card .card img{
+    height: 300px;
+    mix-blend-mode: multiply;
+}
+
+#card .accordion1 {
+    margin-top: -2px;
+    z-index: 1;
+}
+
+#card .accordion1 span.text{
+    width: 280px;
+    height: 45px;
+    font-size:20px;
+    padding: 12px 85px 6px 30px;
+}
+
+#card .panel{
+    padding: 12px 18px 5px 18px;
+}
+
+#card .accordion1 img{
+    width:34px;
+    height:30px;
+    padding-left: 10px;
+    padding-right:7px;
+} 
+ 
+#card .accordion1 .panel a{
+    width: 160px;
+    height: 20px;
+    font-size: 16px;
+}
+
+#card .accordion1 .card-text{
+    width: 329px;
+    height: 150px;
+    padding-top:10px;
+
+}
+
+#card .accordion1 .card-text p{
+    margin-top:15px; 
+    width: 300px;
+    height: 16px;
+    font-size:15px;
+    padding-left:30px;
+    padding-bottom:8px;
+}
+#card .accordion1 .card-text .polna{
+    width: 200px;
+    height: 28px;
+    font-size:25px;
+}
+
+#productmoney{
+   margin-top:20px ; 
+   margin-bottom:20px;
+}
+
+#productmoney h3{
+    font-size: 30px;
+    padding-left:50px;
+}
+
+#productmoney .col-md-4{
+  width: 100%;
+  position: relative;
+}
+
+#productmoney .img{
+  position: absolute;
+  width: 20%;
+  float: left;
+}
+#productmoney .text{
+  width: 70%;
+  float: right;
+}
+#productmoney .col-md-4 img{
+  width: 40px;
+  height:40px;
+}
+#prductmoney h5{
+    font-size:25px;
+ }
+
+#productmoney p{
+    font-size:15px;
+}
+
+#slidetext .row .col-sm-1 .owl-prev,#slidetext .row .col-sm-1 .owl-next{
+margin-top:40px;
+display: none;
+}
+ 
+#slidetext .slider .item{
+  border:none;
+  margin:30px 0px 0 0px;
+}
+
+#slidetext .row .col-sm-1 img{
+  width:25px;
+  height:20px;
+}
+
+#aloqa{
+  padding:40px;
+}
+
+#aloqa .row .col-sm-9{
+  font-size:30px;
+}
+
+
+#aloqa .accordion img{
+    width: 13px;
+    height:13px;
+}
+
+#aloqa .accordion span{
+   padding-left:5px;
+   font-size:18px;
+   padding-top: 10px;
+}
+
+#aloqa .accordion .panel a{
+   font-size: 16px;
+}
+
+#products #card .card{
+  position: relative;
+}
+
+#products #card .card .text{
+  position: absolute;
+  top:40%;
+  left:30%;
+}
+
+#products #card .card .text p:nth-child(1){
+  font-size: 20px;
+}
+
+#products #card .card .text p:nth-child(2){
+  font-size: 16px;
+}
+ 
+#products #card .card:hover .text{
+  top:40%;
+  left:30%;
+}
+
+footer{
+  padding: 50px 0 100px 40px;
+
+}
+
+footer .row .col-sm-4 p:nth-child(1){
+  font-size:25px;
+  padding-bottom: 20px;
+}
+
+footer .row .col-sm-4 p:nth-child(2){
+   padding-bottom: 20px; 
+  font-size: 20px;
+}
+
+footer .row .col-sm-1 {
+  margin-left:30px;
+  font-size:10px;
+   padding-bottom: 20px;
+}
+
+footer .row .col-sm-5 p:nth-child(1){
+  font-size: 20px;
+   padding-bottom: 20px;
+}
+
+footer .row .col-sm-5 p:nth-child(2){
+  font-size: 16px;
+   padding-bottom: 20px;
+}
+footer img{
+  padding:0 2px;
+   ;
+}
+
+footer .row:nth-child(2) .col-sm-4{
+  font-size:16px;
+   padding-bottom: 20px;
+}
+
+footer .row:nth-child(2) .col-sm-6{
+  font-size:16px;
+   padding-bottom: 20px;
+}
+
+
+}
